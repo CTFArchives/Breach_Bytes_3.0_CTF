@@ -1,0 +1,19 @@
+Emoji Madness  (ID: 40)
+Category: Cryptography | Value: 419 | State: visible
+
+Description:
+There exist short sentences which include all the alphabets. Encapsulate the flag in DJSISACA{}
+
+Files:
+ 1) ciphertext.zip
+     original: /files/81d96ac16d2ab1f75b3b19ab8bd84436/ciphertext.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE3fQ.aQOsAw.jeTgABdpNcp_GEVYRVfMusfaqr0
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F81d96ac16d2ab1f75b3b19ab8bd84436%2Fciphertext.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE3fQ.aQOsAw.jeTgABdpNcp_GEVYRVfMusfaqr0
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

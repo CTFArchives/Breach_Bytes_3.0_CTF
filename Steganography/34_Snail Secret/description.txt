@@ -1,0 +1,19 @@
+Snail Secret  (ID: 34)
+Category: Steganography | Value: 500 | State: visible
+
+Description:
+Nature truly hides many secrets.Here is a small secret about snails.Can you find it?
+
+Files:
+ 1) SNAIL_SECRET.zip
+     original: /files/e849e342a4321f11e9b1a7f9ae449216/SNAIL_SECRET.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE2fQ.aQOrOA.R_zLyfp2dgyzvy0NkgWXGxcHqLg
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fe849e342a4321f11e9b1a7f9ae449216%2FSNAIL_SECRET.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE2fQ.aQOrOA.R_zLyfp2dgyzvy0NkgWXGxcHqLg
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

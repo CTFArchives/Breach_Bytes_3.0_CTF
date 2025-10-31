@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 54,
+    "name": "The Archive Leak",
+    "value": 400,
+    "description": "Novus Technologies quietly ran an internal initiative codenamed Project Arion,  a pilot to consolidate legacy customer records into a central analytics store. Late one Monday, Archive Operations noticed an unusual backup file arriving from an external vendor. It looked like garbled text and was forwarded to security for inspection.\r\nYou’ve been asked to investigate the archive, verify its contents, and report back. Decode the attachment, inspect the dump, and find whatever the admin hid in the files. Flag Format : ISACA{xxxxx}\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Forensic",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/2a04c59f8d0e3fafc4db167813817a41/mails.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI4fQ.aQOsFA.uq-nIi8Cw_p642eYtGkrAqt5rdw"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

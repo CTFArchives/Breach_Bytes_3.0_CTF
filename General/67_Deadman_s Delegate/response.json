@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 67,
+    "name": "Deadman’s Delegate",
+    "value": 500,
+    "description": "Avast ye! — Phantom Vault be anchored at 0xB838058A2C3D034B44516FD02368044d0BD90fe6.\r\n\r\nObjective: Board the vault, wrest the helm — overwrite the owner to 0x000000000000000000000000000000000000dEaD — then plunder the hidden chest. \r\n\r\nFair winds, matey — claim the flag or walk the plank! ",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/6eac6ed1754004b599cf786299e9b262/ABI_MAIN.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQyfQ.aQOsNA.9fe_b5f568bQ5qrburawxw-iq0s"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 31,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 28,
+    "name": "Glitchy Endgame",
+    "value": 484,
+    "description": "Good news: The chessboard shows up. Bad news: the position isn’t playing by anyone’s rules. Call it experimental board logic or creative data shuffling, the setup challenges standard chess thinking. From code wizardry to chess mastery, whichever works, as long as you restore order and land the winning move.",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/54e6b3a8d44e9d30529553a298898b37/chess_dist.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEyfQ.aQOrMQ.N5fn_lnQ9uLi0jeqXcf8NNUoSn8"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

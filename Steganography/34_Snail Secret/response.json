@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 34,
+    "name": "Snail Secret",
+    "value": 500,
+    "description": "Nature truly hides many secrets.Here is a small secret about snails.Can you find it?",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Steganography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/e849e342a4321f11e9b1a7f9ae449216/SNAIL_SECRET.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE2fQ.aQOrOA.R_zLyfp2dgyzvy0NkgWXGxcHqLg"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 29,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

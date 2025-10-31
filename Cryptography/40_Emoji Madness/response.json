@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 40,
+    "name": "Emoji Madness",
+    "value": 419,
+    "description": "There exist short sentences which include all the alphabets. Encapsulate the flag in DJSISACA{}",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Cryptography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/81d96ac16d2ab1f75b3b19ab8bd84436/ciphertext.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE3fQ.aQOsAw.jeTgABdpNcp_GEVYRVfMusfaqr0"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 15,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+The Kraken’s Vault  (ID: 66)
+Category: General | Value: 500 | State: visible
+
+Description:
+Arrr! The golden flag lies at 0xC721396205548E24BD8c33719b1586BcEF808aC8 sepolia. Only true pirates calling checkCandidateString will seize it!
+
+Files:
+ (none)
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

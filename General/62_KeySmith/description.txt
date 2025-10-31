@@ -1,0 +1,21 @@
+KeySmith  (ID: 62)
+Category: General | Value: 500 | State: visible
+
+Description:
+The captain kept notes in website — some are obvious, some are tossed to the wind. Gather what feels important and the chest will make sense.
+Can you crack the captains Password??
+Password Hash: $2b$12$wfMBDyoRLQfBV9BXkF/2zuPyWx77Hq0VeHVvVFJ0E/y8FwfWG6RGq    Flag Format : DJSISACA{password}
+
+Files:
+ 1) Website.zip
+     original: /files/7e3a531caf0dc0c1a1ea2922d510bbb5/Website.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM1fQ.aQOsKA.cErozy2yPyfpgeUJWKQoAyzc1GA
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F7e3a531caf0dc0c1a1ea2922d510bbb5%2FWebsite.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM1fQ.aQOsKA.cErozy2yPyfpgeUJWKQoAyzc1GA
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

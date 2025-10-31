@@ -1,0 +1,17 @@
+Webalyzer Pro  (ID: 33)
+Category: Web | Value: 451 | State: visible
+
+Description:
+They want to protect their personal identifer token , can you somehow manage to get that?
+
+Files:
+ (none)
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

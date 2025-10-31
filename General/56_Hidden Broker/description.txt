@@ -1,0 +1,19 @@
+Hidden Broker  (ID: 56)
+Category: General | Value: 499 | State: visible
+
+Description:
+The app looks ordinary, but one component quietly waits at the edge of reach. It won’t talk to everyone — only to a voice that knows the right passphrase. Seek the exposed doorway, learn what it expects, and when you present the broker’s required proof, the guarded secret will finally speak.
+
+Files:
+ 1) hiddenbroker1.zip
+     original: /files/f3a2cf6c48656fd633ddd5a4f8303c57/hiddenbroker1.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM4fQ.aQOsIA.cqzw7VxCQ3FiynhrQQtmfe687p8
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Ff3a2cf6c48656fd633ddd5a4f8303c57%2Fhiddenbroker1.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM4fQ.aQOsIA.cqzw7VxCQ3FiynhrQQtmfe687p8
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

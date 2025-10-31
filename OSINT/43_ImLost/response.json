@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 43,
+    "name": "ImLost",
+    "value": 496,
+    "description": "You don’t know where you are. Your vision is hazy and this is all you can see. You’re supposed to meet your friend at a church site somewhere nearby, but can’t find your way. \r\n\r\nFind the name of the nearby church. (Flag Format = DJSISACA{church_name}). (all lowercase)\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/bc39cdaf810292777e1ed7ce2db6ac4f/ImLost_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE5fQ.aQOsBw.pG3-Vhu09LtHqw4PxfNMnO90NZg"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 6,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

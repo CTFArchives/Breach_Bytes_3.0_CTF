@@ -1,0 +1,24 @@
+Ghosts in the Profiles  (ID: 63)
+Category: Forensic | Value: 500 | State: visible
+
+Description:
+Manya is a mid‑level developer at a small privacy startup. Late one evening she noticed odd behaviour on her workstation: a local archive she trusted became inaccessible and a private sync service that she uses suddenly had a saved credential she didn’t remember creating. You were called in as the incident responder.
+What you have
+
+You’ve been given a forensic disk image containing Manya’s Windows user profile. Your job is to investigate the disk file and retrieve the flag.
+
+Format ISACA{xxxxx}
+
+Files:
+ 1) C2.zip
+     original: /files/fdef29246bacae1c50a20da67070cbde/C2.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQxfQ.aQOsKQ.lpa9Jc_cKbRxVooEttrSYHG5w4g
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Ffdef29246bacae1c50a20da67070cbde%2FC2.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQxfQ.aQOsKQ.lpa9Jc_cKbRxVooEttrSYHG5w4g
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

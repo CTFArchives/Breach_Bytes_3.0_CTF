@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 55,
+    "name": "SecretKeeper",
+    "value": 436,
+    "description": "A quiet device, a pair of hidden things, and a secret that only wants its pieces joined. Wake the app, follow the faint traces it leaves on its vaults, and listen for the whisper the device itself carries — a small fragment that, when stitched to the other shard, will coax the sealed message open. Look gently; the secret responds to those who piece its parts together.\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/c8f311f36c9181ef3887ad556a4b68d3/secretkeeper1.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM3fQ.aQOsFw.0zXolqbfKaku8Vydm-QsgZLTVvc"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 10,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

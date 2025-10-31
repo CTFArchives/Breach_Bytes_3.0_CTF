@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 29,
+    "name": "Bootstrap Bill’s Lock",
+    "value": 491,
+    "description": "A notorious band of digital pirates, confident in their cryptographic prowess, have locked away their treasure map with a custom piece of ransomware—daring any would-be treasure hunters to break their scheme....all that remains is a single encrypted file and the original malware binary—rumored to be the handiwork of the infamous Bootstrap Bill himself.\r\n\r\n[updated the file]",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/462cc30afc30aef613f1f84f6790856c/bootstrap_update.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQ1fQ.aQOrMg.wT2SUKkKhdRhgVDcPZIH45w2Wnk"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

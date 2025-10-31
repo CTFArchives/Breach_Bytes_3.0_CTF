@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 31,
+    "name": "Imposter daVinci",
+    "value": 500,
+    "description": "Someone thought they could duplicate Da Vinci’s genius… but did they really? They left behind a “masterpiece” in the form of a GIF.Looks fake at first glance, but appearances \r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Steganography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/8bf6232de2b17a703e557fd487e783bf/Masterpiece.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE1fQ.aQOrNw.zbcDt0ssJ9ENoVyfw9i4wIt9GxY"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 28,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

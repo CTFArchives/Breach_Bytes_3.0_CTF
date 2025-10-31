@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 27,
+    "name": "TheAlienReply",
+    "value": 491,
+    "description": "Years ago, humanity sent a simple radio signal into deep space as part of a global initiative to reach extraterrestrial life.\r\nFor decades, we received nothing… until now.\r\n\r\nTwo faint recordings were captured in return — Transmission1.wav and Transmission2.wav. Can you decode it?\r\n\r\n**These are two waves of the same transmission , one over others gives the comlpete one**\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Steganography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/f235f21a6cad507c03e0b7b9a92d98f3/The_Alien_Reply.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjExfQ.aQOrMA.EhyhG8UAhuPvrje0i4MLD17x8Zg"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 9,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

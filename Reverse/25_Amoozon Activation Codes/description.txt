@@ -1,0 +1,23 @@
+Amoozon Activation Codes  (ID: 25)
+Category: Reverse | Value: 496 | State: visible
+
+Description:
+"IR Case Files: Amoozon Activation Codes
+
+Your team is working incident response for Amoozon™, the world’s largest “supercloud” retailer and data hoarding platform.
+A suspicious binary has been discovered during a routine endpoint inventory sweep, one that sits dormant unless it finds very specific codes. The binary’s author remains unknown, and all attempts to activate its payload have failed.
+"
+
+Files:
+ 1) amoozon.zip
+     original: /files/f20848e83d099c6f68685c5c678fe43e/amoozon.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEwfQ.aQOrKA.BAMpkSPvEVeh5wkG8LHgFQD1rJ0
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Ff20848e83d099c6f68685c5c678fe43e%2Famoozon.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEwfQ.aQOrKA.BAMpkSPvEVeh5wkG8LHgFQD1rJ0
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

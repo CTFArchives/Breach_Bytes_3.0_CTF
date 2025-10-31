@@ -1,0 +1,17 @@
+the-ITR  (ID: 36)
+Category: Web | Value: 500 | State: visible
+
+Description:
+The system seems secure, built to keep people out. Yet, if you pay attention, you might spot hidden flaws that let you slip past its defenses without anyone noticing.
+
+Files:
+ (none)
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

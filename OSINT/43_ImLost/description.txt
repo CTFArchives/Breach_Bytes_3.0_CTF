@@ -1,0 +1,21 @@
+ImLost  (ID: 43)
+Category: OSINT | Value: 496 | State: visible
+
+Description:
+You don’t know where you are. Your vision is hazy and this is all you can see. You’re supposed to meet your friend at a church site somewhere nearby, but can’t find your way.
+
+Find the name of the nearby church. (Flag Format = DJSISACA{church_name}). (all lowercase)
+
+Files:
+ 1) ImLost_attachment.zip
+     original: /files/bc39cdaf810292777e1ed7ce2db6ac4f/ImLost_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE5fQ.aQOsBw.pG3-Vhu09LtHqw4PxfNMnO90NZg
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fbc39cdaf810292777e1ed7ce2db6ac4f%2FImLost_attachment.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE5fQ.aQOsBw.pG3-Vhu09LtHqw4PxfNMnO90NZg
+
+Hints:
+ - Hint 1 (Cost: 100)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

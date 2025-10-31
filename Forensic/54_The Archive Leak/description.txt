@@ -1,0 +1,20 @@
+The Archive Leak  (ID: 54)
+Category: Forensic | Value: 400 | State: visible
+
+Description:
+Novus Technologies quietly ran an internal initiative codenamed Project Arion,  a pilot to consolidate legacy customer records into a central analytics store. Late one Monday, Archive Operations noticed an unusual backup file arriving from an external vendor. It looked like garbled text and was forwarded to security for inspection.
+You’ve been asked to investigate the archive, verify its contents, and report back. Decode the attachment, inspect the dump, and find whatever the admin hid in the files. Flag Format : ISACA{xxxxx}
+
+Files:
+ 1) mails.zip
+     original: /files/2a04c59f8d0e3fafc4db167813817a41/mails.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI4fQ.aQOsFA.uq-nIi8Cw_p642eYtGkrAqt5rdw
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F2a04c59f8d0e3fafc4db167813817a41%2Fmails.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI4fQ.aQOsFA.uq-nIi8Cw_p642eYtGkrAqt5rdw
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

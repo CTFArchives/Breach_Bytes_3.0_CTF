@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 25,
+    "name": "Amoozon Activation Codes",
+    "value": 496,
+    "description": "\"IR Case Files: Amoozon Activation Codes\r\n\r\nYour team is working incident response for Amoozon™, the world’s largest “supercloud” retailer and data hoarding platform.\r\nA suspicious binary has been discovered during a routine endpoint inventory sweep, one that sits dormant unless it finds very specific codes. The binary’s author remains unknown, and all attempts to activate its payload have failed.\r\n\"",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/f20848e83d099c6f68685c5c678fe43e/amoozon.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEwfQ.aQOrKA.BAMpkSPvEVeh5wkG8LHgFQD1rJ0"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

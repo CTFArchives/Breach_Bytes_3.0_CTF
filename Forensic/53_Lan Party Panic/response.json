@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 53,
+    "name": "Lan Party Panic",
+    "value": 499,
+    "description": "It looked like just another flood of TCP chatter, fragmented packets, connection attempts on the LAN. But those who notice patterns in the storm may uncover the truth. \r\n\r\nFlag Format : ISACA{xxxxxxx}\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Forensic",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/ac02673c5b1b94b15a58691d20581a3b/capture.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI3fQ.aQOsEw.8ygmxgZASh5B4Mhtc-k7rBkjFac"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 20,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

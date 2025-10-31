@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 64,
+    "name": "DiskFall",
+    "value": 500,
+    "description": "A mysterious system crash caused critical data sectors to collapse, leaving behind traces of fragmented and partially recovered files. Some evidence was wiped, but not everything truly disappears. Your job: dig through the remnants and uncover what was lost.\r\n\r\nFormat : ISACA{xxxxx}",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Forensic",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/85f26ede78e55f5ec9c988f4bbf8df90/disk.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM2fQ.aQOsMA.lEt8iYTf2VMTy0sAvqUKM1uDnRs"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 22,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

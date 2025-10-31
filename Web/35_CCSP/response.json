@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "id": 35,
+    "name": "CCSP",
+    "value": 491,
+    "description": "Not everything here is as clear as it first looks. Clues hide in plain sight—only those who are patient and observant will uncover what’s really going on.",
+    "attribution": null,
+    "connection_info": "https://smart-redirecter-dev.vercel.app/challenge3",
+    "category": "Web",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 25,
+        "cost": 10,
+        "title": "Hint 1",
+        "content": "Im sure the person who worked on the API did it securely ... cause in no universe anyones cracking me 250+ length secret key.\n\nAnyways imma go back i have **massive assignments** to complete"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "id": 33,
+    "name": "Webalyzer Pro",
+    "value": 451,
+    "description": "They want to protect their personal identifer token , can you somehow manage to get that?",
+    "attribution": null,
+    "connection_info": "https://smart-redirecter-dev.vercel.app/challenge2",
+    "category": "Web",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 12,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

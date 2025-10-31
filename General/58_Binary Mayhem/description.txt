@@ -1,0 +1,19 @@
+Binary Mayhem  (ID: 58)
+Category: General | Value: 500 | State: visible
+
+Description:
+Wrap the flag in the format DJSISACA{FLAG_GOES_HERE}
+
+Files:
+ 1) binary_attachments.zip
+     original: /files/946502b6b5514d8edeb210c4253beee4/binary_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMxfQ.aQOsJA._HY3S7z54gzkmyplHuPxAeGf-Vs
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F946502b6b5514d8edeb210c4253beee4%2Fbinary_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMxfQ.aQOsJA._HY3S7z54gzkmyplHuPxAeGf-Vs
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

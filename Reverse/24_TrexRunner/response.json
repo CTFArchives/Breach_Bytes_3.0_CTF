@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 24,
+    "name": "TrexRunner",
+    "value": 464,
+    "description": "Once just a pixelated survivor in the Chrome desert, your dino steps into legend with new cosmic powers, with the power to control time (Press 'v'), but can it bend space itself, perhaps a score of 99999?",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/a73e71dab2732ff43777dbc2d59f1563/dino_dist_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjl9.aQOr9w.tbk6KP6PNwNnKcTT-ARgANsDBM4"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

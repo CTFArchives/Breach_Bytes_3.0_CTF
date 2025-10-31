@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 39,
+    "name": "The_Headline",
+    "value": 139,
+    "description": "You found this photo hidden deep within a box of my friend’s old things. When I asked about it, he clamped up, his face draining of color. All that remains is the unsettling inscription: 'Something bad happened here.' What secret is this image hiding, and why is my friend so afraid of it?\r\n\r\nFind the date the tragedy struck the location. (Flag Format : DJSISACA{DD_MM_YYYY})\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/e26083a797b03299e934f26013b3705d/headline_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQwfQ.aQOsAQ.0Q028EWSllzlOvTo6PEAifa_7jU"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 8,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

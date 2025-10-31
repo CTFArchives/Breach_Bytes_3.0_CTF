@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 30,
+    "name": "Media Mystery",
+    "value": 500,
+    "description": "Your idol has left you a message in his style.\r\nCan you find it? \r\n\r\nNote:The password has 4 parts to it.",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Steganography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/c6430a8440276476a06d65f366573b5c/mediamystery.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEzfQ.aQOrNA.VNutgmg8GahqnxPRgmlw90-hkfY"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 19,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

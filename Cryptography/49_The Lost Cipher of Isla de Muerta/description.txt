@@ -1,0 +1,19 @@
+The Lost Cipher of Isla de Muerta  (ID: 49)
+Category: Cryptography | Value: 500 | State: visible
+
+Description:
+https://oracle-web-crypto.vercel.app/
+
+Files:
+ 1) app.zip
+     original: /files/ffe1ef46334ceb379e1e33be3fa48015/app.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI0fQ.aQOsDg.6Gqz5pavb_PvnP6f3UTz2_46FMk
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fffe1ef46334ceb379e1e33be3fa48015%2Fapp.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI0fQ.aQOsDg.6Gqz5pavb_PvnP6f3UTz2_46FMk
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

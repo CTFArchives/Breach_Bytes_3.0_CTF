@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "id": 47,
+    "name": "KanYouFindMi?",
+    "value": 491,
+    "description": "A notorious malware developer, known only as KanYouFindMe, has been taunting investigators online after stealing sensitive data from a major cybersecurity firm. He claims he’s “untraceable,” the only lead we have of him is this account `kanyouf1ndm3`. \r\n\r\nWe just received a new message from the scammer:  really? didn't even check my youtube captions 🤣?\r\n\r\nYour mission: Trace his digital footprints , cut through the noise, and uncover his real name. (Flag Format : DJSISACA{FirstName_LastName}) (all lowercase)\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 7,
+        "cost": 100,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

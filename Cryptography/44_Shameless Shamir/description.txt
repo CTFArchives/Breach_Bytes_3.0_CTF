@@ -1,0 +1,20 @@
+Shameless Shamir  (ID: 44)
+Category: Cryptography | Value: 500 | State: visible
+
+Description:
+"Because of Shamir's stinginess the board of directors cannot access their shared password. I have given you Shamir's shares can you recover it?
+flag format is DJSISACA{Recovered bytes of the secret}"
+
+Files:
+ 1) shamir_attachment.zip
+     original: /files/8dac968f1fa57db4d290a8388e5dcc74/shamir_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIwfQ.aQOsCA.ZlMorka89p3uvnqHNi-mFpkXN0k
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F8dac968f1fa57db4d290a8388e5dcc74%2Fshamir_attachment.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIwfQ.aQOsCA.ZlMorka89p3uvnqHNi-mFpkXN0k
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

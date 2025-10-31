@@ -1,0 +1,20 @@
+Nondeterministic Entrapment  (ID: 60)
+Category: General | Value: 379 | State: visible
+
+Description:
+You awaken in a dimly lit quantum laboratory, surrounded by humming machines and flickering monitors. A cryptic message from Professor Incarcius greets you: “The flag is hidden within the quantum signals. Only those who see beyond the illusions can reveal what’s lost. The odds are in the rotations… but not every twist leads you to truth.”
+Note: The probability of measuring a single qubit in the ∣1⟩ state after it is rotated by an angle theta about the Y-axis is given by sin^2(theta/2). The flag that generates the quantum readings starts with "DJSISACA{" and ends with "}"
+
+Files:
+ 1) quantum_attachments.zip
+     original: /files/21da19a64dda27a30037bb60d56da561/quantum_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMzfQ.aQOsJg.5o4UjrR4v553KIPpRp9ZgfCuqac
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F21da19a64dda27a30037bb60d56da561%2Fquantum_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMzfQ.aQOsJg.5o4UjrR4v553KIPpRp9ZgfCuqac
+
+Hints:
+ - Hint 1  (Cost: 100)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

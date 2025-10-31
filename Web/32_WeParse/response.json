@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "id": 32,
+    "name": "WeParse",
+    "value": 139,
+    "description": "Something about this website doesn’t add up. Hidden pathways lie buried beneath its simple interface, waiting for the curious to uncover them. Dare to peer deeper—what starts as a harmless request might reveal far more than intended.\r\n\r\nCan you get the /flag.txt",
+    "attribution": null,
+    "connection_info": "https://smart-redirecter-dev.vercel.app/challenge1",
+    "category": "Web",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 24,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

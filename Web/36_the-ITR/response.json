@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "id": 36,
+    "name": "the-ITR",
+    "value": 500,
+    "description": "The system seems secure, built to keep people out. Yet, if you pay attention, you might spot hidden flaws that let you slip past its defenses without anyone noticing.",
+    "attribution": null,
+    "connection_info": "https://smart-redirecter-dev.vercel.app/challenge4",
+    "category": "Web",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 26,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

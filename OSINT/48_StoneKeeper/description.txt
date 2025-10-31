@@ -1,0 +1,23 @@
+StoneKeeper  (ID: 48)
+Category: OSINT | Value: 500 | State: visible
+
+Description:
+Welcome to Homicide. Your initial task is to sift through the infamous "No-Leads" shelf. You pull a file—Case 77-09—an old, high-profile murder that baffled everyone. The case is practically empty; no witnesses, no motive,just one item: a concise Forensic Report (maybe more than just one file?) of the victim.
+
+Information Leaked : She used a niche social media site, Tumble? Tumbler ? What was it called?
+
+Your mission: Find the name of the killer and where the evidence was disposed of. (Flag format = DJSISACA{KillerName_PlaceName}) (all lowercase)
+
+Files:
+ 1) Forensic_Report.zip
+     original: /files/df17af898fe402b33ace7688b55d1ee0/Forensic_Report.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIzfQ.aQOsDA.IwFUOoIV0CJYMpZgNA6PGOykYek
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fdf17af898fe402b33ace7688b55d1ee0%2FForensic_Report.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIzfQ.aQOsDA.IwFUOoIV0CJYMpZgNA6PGOykYek
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

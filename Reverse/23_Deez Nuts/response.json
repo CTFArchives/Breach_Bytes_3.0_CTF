@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 23,
+    "name": "Deez Nuts",
+    "value": 100,
+    "description": "You ever just look at a coconut and think, “What if it’s hiding a flag?”",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/bd6574d3b7251d297f5ce498ab69eb30/coconut_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjh9.aQOr9g.2UbGF4FsthGLreubu3lfsbdbkPA"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

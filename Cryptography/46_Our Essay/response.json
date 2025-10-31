@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 46,
+    "name": "Our Essay",
+    "value": 500,
+    "description": "Aren’t big primes just so hard to find? I'm not sure what you do but I used a very famous sequence to find one. ",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Cryptography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/cf060f24e8f71b0df4bc4b9a4b565de4/ouressay_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIyfQ.aQOsCw.afrEXgSeSYE2HjNUk6UeyXNtAfw"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 14,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

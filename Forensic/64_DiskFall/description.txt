@@ -1,0 +1,21 @@
+DiskFall  (ID: 64)
+Category: Forensic | Value: 500 | State: visible
+
+Description:
+A mysterious system crash caused critical data sectors to collapse, leaving behind traces of fragmented and partially recovered files. Some evidence was wiped, but not everything truly disappears. Your job: dig through the remnants and uncover what was lost.
+
+Format : ISACA{xxxxx}
+
+Files:
+ 1) disk.zip
+     original: /files/85f26ede78e55f5ec9c988f4bbf8df90/disk.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM2fQ.aQOsMA.lEt8iYTf2VMTy0sAvqUKM1uDnRs
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F85f26ede78e55f5ec9c988f4bbf8df90%2Fdisk.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM2fQ.aQOsMA.lEt8iYTf2VMTy0sAvqUKM1uDnRs
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

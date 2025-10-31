@@ -1,0 +1,17 @@
+CCSP  (ID: 35)
+Category: Web | Value: 491 | State: visible
+
+Description:
+Not everything here is as clear as it first looks. Clues hide in plain sight—only those who are patient and observant will uncover what’s really going on.
+
+Files:
+ (none)
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

@@ -1,0 +1,19 @@
+TrexRunner  (ID: 24)
+Category: Reverse | Value: 464 | State: visible
+
+Description:
+Once just a pixelated survivor in the Chrome desert, your dino steps into legend with new cosmic powers, with the power to control time (Press 'v'), but can it bend space itself, perhaps a score of 99999?
+
+Files:
+ 1) dino_dist_attachments.zip
+     original: /files/a73e71dab2732ff43777dbc2d59f1563/dino_dist_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjl9.aQOr9w.tbk6KP6PNwNnKcTT-ARgANsDBM4
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fa73e71dab2732ff43777dbc2d59f1563%2Fdino_dist_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjl9.aQOr9w.tbk6KP6PNwNnKcTT-ARgANsDBM4
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

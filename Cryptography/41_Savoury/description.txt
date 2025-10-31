@@ -1,0 +1,23 @@
+Savoury  (ID: 41)
+Category: Cryptography | Value: 176 | State: visible
+
+Description:
+Can salt be black??? I'm not sure but ""pepper"" surely is.
+You are given 15 salted hashes and a list of 100 passwords from which any 15 were used to get these hashes.
+
+Flag format is DJSISACA{triplet1_triplet2_......_triplet15_base_salt}
+where a tripletX = (first letter of password X) + (digit for X) + (suffix for X)
+
+Files:
+ 1) savoury_attachments.zip
+     original: /files/ad3aaa1b79d1aee6b0fa5a5bc27861b1/savoury_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE4fQ.aQOp6g.AKjlNUJmNINDxuYIczkkjsM_yNw
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fad3aaa1b79d1aee6b0fa5a5bc27861b1%2Fsavoury_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjE4fQ.aQOp6g.AKjlNUJmNINDxuYIczkkjsM_yNw
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

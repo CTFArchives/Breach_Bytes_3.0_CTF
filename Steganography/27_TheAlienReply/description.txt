@@ -1,0 +1,24 @@
+TheAlienReply  (ID: 27)
+Category: Steganography | Value: 491 | State: visible
+
+Description:
+Years ago, humanity sent a simple radio signal into deep space as part of a global initiative to reach extraterrestrial life.
+For decades, we received nothing… until now.
+
+Two faint recordings were captured in return — Transmission1.wav and Transmission2.wav. Can you decode it?
+
+**These are two waves of the same transmission , one over others gives the comlpete one**
+
+Files:
+ 1) The_Alien_Reply.zip
+     original: /files/f235f21a6cad507c03e0b7b9a92d98f3/The_Alien_Reply.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjExfQ.aQOrMA.EhyhG8UAhuPvrje0i4MLD17x8Zg
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Ff235f21a6cad507c03e0b7b9a92d98f3%2FThe_Alien_Reply.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjExfQ.aQOrMA.EhyhG8UAhuPvrje0i4MLD17x8Zg
+
+Hints:
+ - Hint 1 (Cost: 100)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

@@ -1,0 +1,21 @@
+ClumsyCon  (ID: 45)
+Category: OSINT | Value: 491 | State: visible
+
+Description:
+Help an investigatory agency find details about a wanna-be scammer who accidentally left his desktop screen open. Report to them his details and get the flag.
+
+..he was everywhere... reddit.. linkedin.. X.. also it's 1 'f'.
+
+Files:
+ 1) clumsycon_attachment.zip
+     original: /files/f6097ca3bf475acb6f8299f6904f49ec/clumsycon_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIxfQ.aQOsCQ.ApFnQPACdJDp6zqzzDW44rEFsI8
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Ff6097ca3bf475acb6f8299f6904f49ec%2Fclumsycon_attachment.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIxfQ.aQOsCQ.ApFnQPACdJDp6zqzzDW44rEFsI8
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

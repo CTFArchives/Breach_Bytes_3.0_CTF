@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 56,
+    "name": "Hidden Broker",
+    "value": 499,
+    "description": "The app looks ordinary, but one component quietly waits at the edge of reach. It won’t talk to everyone — only to a voice that knows the right passphrase. Seek the exposed doorway, learn what it expects, and when you present the broker’s required proof, the guarded secret will finally speak.\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/f3a2cf6c48656fd633ddd5a4f8303c57/hiddenbroker1.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM4fQ.aQOsIA.cqzw7VxCQ3FiynhrQQtmfe687p8"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 27,
+        "cost": 10,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

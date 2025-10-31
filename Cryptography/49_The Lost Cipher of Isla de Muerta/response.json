@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 49,
+    "name": "The Lost Cipher of Isla de Muerta",
+    "value": 500,
+    "description": "https://oracle-web-crypto.vercel.app/",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Cryptography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/ffe1ef46334ceb379e1e33be3fa48015/app.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI0fQ.aQOsDg.6Gqz5pavb_PvnP6f3UTz2_46FMk"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 17,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

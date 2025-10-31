@@ -1,0 +1,19 @@
+WeParse  (ID: 32)
+Category: Web | Value: 139 | State: visible
+
+Description:
+Something about this website doesn’t add up. Hidden pathways lie buried beneath its simple interface, waiting for the curious to uncover them. Dare to peer deeper—what starts as a harmless request might reveal far more than intended.
+
+Can you get the /flag.txt
+
+Files:
+ (none)
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

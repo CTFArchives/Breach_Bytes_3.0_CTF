@@ -1,0 +1,19 @@
+Wanted  (ID: 37)
+Category: Steganography | Value: 500 | State: visible
+
+Description:
+Jack Sparrow is on the run again, chased through the sands by the King’s army. Somewhere along his escape, he’s left behind a clue — only those sharp enough to track him will uncover his secret.
+
+Files:
+ 1) Wanted.zip
+     original: /files/42d7e2c7c43355fabd5da2e7e2849a63/Wanted.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM5fQ.aQOrOw.VH0w35BNooVLZBdA6up48LHHLEY
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F42d7e2c7c43355fabd5da2e7e2849a63%2FWanted.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM5fQ.aQOrOw.VH0w35BNooVLZBdA6up48LHHLEY
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

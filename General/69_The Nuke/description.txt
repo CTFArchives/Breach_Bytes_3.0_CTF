@@ -1,0 +1,22 @@
+The Nuke  (ID: 69)
+Category: General | Value: 500 | State: visible
+
+Description:
+A timer counts down.
+Ten wires.
+A digital nuke awaits, you have three minutes.
+Cut all the wires in order, or everything is lost.
+
+Files:
+ 1) thenuke.zip
+     original: /files/b33b95b8f41725a63f82e45531d6fd4d/thenuke.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQ0fQ.aQOsNw.AqWbSAbiB6efhBlrWRuxtQX7W2Y
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fb33b95b8f41725a63f82e45531d6fd4d%2Fthenuke.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQ0fQ.aQOsNw.AqWbSAbiB6efhBlrWRuxtQX7W2Y
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

@@ -1,0 +1,19 @@
+Deez Nuts  (ID: 23)
+Category: Reverse | Value: 100 | State: visible
+
+Description:
+You ever just look at a coconut and think, “What if it’s hiding a flag?”
+
+Files:
+ 1) coconut_attachment.zip
+     original: /files/bd6574d3b7251d297f5ce498ab69eb30/coconut_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjh9.aQOr9g.2UbGF4FsthGLreubu3lfsbdbkPA
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fbd6574d3b7251d297f5ce498ab69eb30%2Fcoconut_attachment.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjh9.aQOr9g.2UbGF4FsthGLreubu3lfsbdbkPA
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

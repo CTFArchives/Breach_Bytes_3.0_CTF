@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "id": 63,
+    "name": "Ghosts in the Profiles",
+    "value": 500,
+    "description": "Manya is a mid‑level developer at a small privacy startup. Late one evening she noticed odd behaviour on her workstation: a local archive she trusted became inaccessible and a private sync service that she uses suddenly had a saved credential she didn’t remember creating. You were called in as the incident responder.\r\nWhat you have\r\n\r\nYou’ve been given a forensic disk image containing Manya’s Windows user profile. Your job is to investigate the disk file and retrieve the flag. \r\n\r\nFormat ISACA{xxxxx}\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Forensic",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/fdef29246bacae1c50a20da67070cbde/C2.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQxfQ.aQOsKQ.lpa9Jc_cKbRxVooEttrSYHG5w4g"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 21,
+        "cost": 10,
+        "title": "Hint 1",
+        "content": "If you want to speak like Manya, bring her fox den home."
+      }
+    ]
+  }
+}

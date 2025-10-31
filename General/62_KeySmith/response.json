@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 62,
+    "name": "KeySmith",
+    "value": 500,
+    "description": "The captain kept notes in website — some are obvious, some are tossed to the wind. Gather what feels important and the chest will make sense.\r\nCan you crack the captains Password??\r\nPassword Hash: $2b$12$wfMBDyoRLQfBV9BXkF/2zuPyWx77Hq0VeHVvVFJ0E/y8FwfWG6RGq    Flag Format : DJSISACA{password}\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/7e3a531caf0dc0c1a1ea2922d510bbb5/Website.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM1fQ.aQOsKA.cErozy2yPyfpgeUJWKQoAyzc1GA"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

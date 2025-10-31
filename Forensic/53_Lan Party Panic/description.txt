@@ -1,0 +1,21 @@
+Lan Party Panic  (ID: 53)
+Category: Forensic | Value: 499 | State: visible
+
+Description:
+It looked like just another flood of TCP chatter, fragmented packets, connection attempts on the LAN. But those who notice patterns in the storm may uncover the truth.
+
+Flag Format : ISACA{xxxxxxx}
+
+Files:
+ 1) capture.zip
+     original: /files/ac02673c5b1b94b15a58691d20581a3b/capture.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI3fQ.aQOsEw.8ygmxgZASh5B4Mhtc-k7rBkjFac
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fac02673c5b1b94b15a58691d20581a3b%2Fcapture.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI3fQ.aQOsEw.8ygmxgZASh5B4Mhtc-k7rBkjFac
+
+Hints:
+ - Hint 1 (Cost: 10)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

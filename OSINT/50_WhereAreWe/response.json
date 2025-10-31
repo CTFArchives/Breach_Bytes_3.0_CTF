@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 50,
+    "name": "WhereAreWe",
+    "value": 499,
+    "description": "You are assigned to the Central Surveillance Unit (CSU) tracking two high-value targets, 'The Falcon' and 'The Serpent'. We successfully intercepted their latest comms, confirming a critical meetup. Your analysis team has provided only the raw transcript below.\r\n\r\n\r\nYour mission: Deduce the location where they are planning to meet.\r\n(Flag Format : DJSISACA{place_name}) (all lowercase)\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/b8af3f32cf90e56a928ba02c5cc50241/attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI2fQ.aQOsDw.sXl4sHU1SDZNf6aaFH3fSbC9Nr0"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

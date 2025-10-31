@@ -1,0 +1,22 @@
+Media Mystery  (ID: 30)
+Category: Steganography | Value: 500 | State: visible
+
+Description:
+Your idol has left you a message in his style.
+Can you find it?
+
+Note:The password has 4 parts to it.
+
+Files:
+ 1) mediamystery.zip
+     original: /files/c6430a8440276476a06d65f366573b5c/mediamystery.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEzfQ.aQOrNA.VNutgmg8GahqnxPRgmlw90-hkfY
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fc6430a8440276476a06d65f366573b5c%2Fmediamystery.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEzfQ.aQOrNA.VNutgmg8GahqnxPRgmlw90-hkfY
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

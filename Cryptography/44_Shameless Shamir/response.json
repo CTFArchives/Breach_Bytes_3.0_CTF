@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 44,
+    "name": "Shameless Shamir",
+    "value": 500,
+    "description": "\"Because of Shamir's stinginess the board of directors cannot access their shared password. I have given you Shamir's shares can you recover it?\r\nflag format is DJSISACA{Recovered bytes of the secret}\"",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Cryptography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/8dac968f1fa57db4d290a8388e5dcc74/shamir_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIwfQ.aQOsCA.ZlMorka89p3uvnqHNi-mFpkXN0k"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 16,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

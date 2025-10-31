@@ -1,0 +1,19 @@
+Glitchy Endgame  (ID: 28)
+Category: Reverse | Value: 484 | State: visible
+
+Description:
+Good news: The chessboard shows up. Bad news: the position isn’t playing by anyone’s rules. Call it experimental board logic or creative data shuffling, the setup challenges standard chess thinking. From code wizardry to chess mastery, whichever works, as long as you restore order and land the winning move.
+
+Files:
+ 1) chess_dist.zip
+     original: /files/54e6b3a8d44e9d30529553a298898b37/chess_dist.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEyfQ.aQOrMQ.N5fn_lnQ9uLi0jeqXcf8NNUoSn8
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F54e6b3a8d44e9d30529553a298898b37%2Fchess_dist.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjEyfQ.aQOrMQ.N5fn_lnQ9uLi0jeqXcf8NNUoSn8
+
+Hints:
+ (none)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 26,
+    "name": "SuperPatchBro's",
+    "value": 499,
+    "description": "Welcome to the game. Your mission is to find all 3 hidden gems scattered across the game. Each gem you collect drops a part of the flag into the player logs.Only when you’ve gathered all three parts can you piece together the full flag. Can you dig through the game’s mechanics and uncover them all?",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Reverse",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/a3f525bc1cecebebb90bc72b4d673f80/ultra_pixel_dist.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQzfQ.aQOrKQ.qqBvNh1ElNmKH_X8t7Zfcz2Ok_M"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

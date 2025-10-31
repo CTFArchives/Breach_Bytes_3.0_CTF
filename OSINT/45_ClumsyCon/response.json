@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 45,
+    "name": "ClumsyCon",
+    "value": 491,
+    "description": "Help an investigatory agency find details about a wanna-be scammer who accidentally left his desktop screen open. Report to them his details and get the flag.\r\n\r\n..he was everywhere... reddit.. linkedin.. X.. also it's 1 'f'.",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/f6097ca3bf475acb6f8299f6904f49ec/clumsycon_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIxfQ.aQOsCQ.ApFnQPACdJDp6zqzzDW44rEFsI8"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

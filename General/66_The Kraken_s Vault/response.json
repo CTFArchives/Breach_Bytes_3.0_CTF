@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "id": 66,
+    "name": "The Kraken’s Vault",
+    "value": 500,
+    "description": "Arrr! The golden flag lies at 0xC721396205548E24BD8c33719b1586BcEF808aC8 sepolia. Only true pirates calling checkCandidateString will seize it!\r\n\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [],
+    "tags": [],
+    "hints": [
+      {
+        "id": 30,
+        "cost": 50,
+        "title": "Hint 1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 69,
+    "name": "The Nuke",
+    "value": 500,
+    "description": "A timer counts down.\r\nTen wires.\r\nA digital nuke awaits, you have three minutes.\r\nCut all the wires in order, or everything is lost.",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/b33b95b8f41725a63f82e45531d6fd4d/thenuke.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQ0fQ.aQOsNw.AqWbSAbiB6efhBlrWRuxtQX7W2Y"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

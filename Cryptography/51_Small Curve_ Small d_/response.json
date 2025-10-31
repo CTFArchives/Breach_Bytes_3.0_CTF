@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "id": 51,
+    "name": "Small Curve, Small d***",
+    "value": 500,
+    "description": "Everyone writes y^2 = x^3 + ax + b over ℤn, or wait was it 𝔽p?🤔",
+    "attribution": null,
+    "connection_info": null,
+    "category": "Cryptography",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/24388cc58a77eff053a7636335891b86/small_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI1fQ.aQOsEA.7IV-b-DwIWi4VYOem2SN1NF89eQ"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 18,
+        "cost": 50,
+        "title": "Hint 1",
+        "content": "SageBaba says : N is a complete composite number and D can be bruteforced as long  as you have P1 and DmodP1  "
+      }
+    ]
+  }
+}

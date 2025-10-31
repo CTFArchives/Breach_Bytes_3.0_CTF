@@ -1,0 +1,19 @@
+Small Curve, Small d***  (ID: 51)
+Category: Cryptography | Value: 500 | State: visible
+
+Description:
+Everyone writes y^2 = x^3 + ax + b over ℤn, or wait was it 𝔽p?🤔
+
+Files:
+ 1) small_attachments.zip
+     original: /files/24388cc58a77eff053a7636335891b86/small_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI1fQ.aQOsEA.7IV-b-DwIWi4VYOem2SN1NF89eQ
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2F24388cc58a77eff053a7636335891b86%2Fsmall_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjI1fQ.aQOsEA.7IV-b-DwIWi4VYOem2SN1NF89eQ
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

@@ -1,0 +1,19 @@
+SecretKeeper  (ID: 55)
+Category: General | Value: 436 | State: visible
+
+Description:
+A quiet device, a pair of hidden things, and a secret that only wants its pieces joined. Wake the app, follow the faint traces it leaves on its vaults, and listen for the whisper the device itself carries — a small fragment that, when stitched to the other shard, will coax the sealed message open. Look gently; the secret responds to those who piece its parts together.
+
+Files:
+ 1) secretkeeper1.zip
+     original: /files/c8f311f36c9181ef3887ad556a4b68d3/secretkeeper1.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM3fQ.aQOsFw.0zXolqbfKaku8Vydm-QsgZLTVvc
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fc8f311f36c9181ef3887ad556a4b68d3%2Fsecretkeeper1.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM3fQ.aQOsFw.0zXolqbfKaku8Vydm-QsgZLTVvc
+
+Hints:
+ - Hint 1 (Cost: 100)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

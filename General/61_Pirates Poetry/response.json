@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 61,
+    "name": "Pirates Poetry",
+    "value": 500,
+    "description": "The key lies in a Romantic era poem where a sailor's cruel act against a sea bird brings supernatural punishment upon his crew. The author also wrote about a 'stately pleasure-dome' in Xanadu.",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/15de6ca2ce283b519b15adf2cb2578a5/cipher_text.txt?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjM0fQ.aQOsJw.g9b_lyjG5wcMEQCCmO5SHO3G7vY"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

@@ -1,0 +1,19 @@
+Our Essay  (ID: 46)
+Category: Cryptography | Value: 500 | State: visible
+
+Description:
+Aren’t big primes just so hard to find? I'm not sure what you do but I used a very famous sequence to find one.
+
+Files:
+ 1) ouressay_attachments.zip
+     original: /files/cf060f24e8f71b0df4bc4b9a4b565de4/ouressay_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIyfQ.aQOsCw.afrEXgSeSYE2HjNUk6UeyXNtAfw
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fcf060f24e8f71b0df4bc4b9a4b565de4%2Fouressay_attachments.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIyfQ.aQOsCw.afrEXgSeSYE2HjNUk6UeyXNtAfw
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

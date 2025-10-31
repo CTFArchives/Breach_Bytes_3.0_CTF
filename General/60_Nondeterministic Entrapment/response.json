@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "id": 60,
+    "name": "Nondeterministic Entrapment",
+    "value": 379,
+    "description": "You awaken in a dimly lit quantum laboratory, surrounded by humming machines and flickering monitors. A cryptic message from Professor Incarcius greets you: “The flag is hidden within the quantum signals. Only those who see beyond the illusions can reveal what’s lost. The odds are in the rotations… but not every twist leads you to truth.” \r\nNote: The probability of measuring a single qubit in the ∣1⟩ state after it is rotated by an angle theta about the Y-axis is given by sin^2(theta/2). The flag that generates the quantum readings starts with \"DJSISACA{\" and ends with \"}\"\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "General",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/21da19a64dda27a30037bb60d56da561/quantum_attachments.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMzfQ.aQOsJg.5o4UjrR4v553KIPpRp9ZgfCuqac"
+    ],
+    "tags": [],
+    "hints": [
+      {
+        "id": 11,
+        "cost": 100,
+        "title": "Hint 1 "
+      }
+    ]
+  }
+}

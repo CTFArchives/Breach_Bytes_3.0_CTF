@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "id": 48,
+    "name": "StoneKeeper",
+    "value": 500,
+    "description": "Welcome to Homicide. Your initial task is to sift through the infamous \"No-Leads\" shelf. You pull a file—Case 77-09—an old, high-profile murder that baffled everyone. The case is practically empty; no witnesses, no motive,just one item: a concise Forensic Report (maybe more than just one file?) of the victim.\r\n\r\nInformation Leaked : She used a niche social media site, Tumble? Tumbler ? What was it called?\r\n\r\nYour mission: Find the name of the killer and where the evidence was disposed of. (Flag format = DJSISACA{KillerName_PlaceName}) (all lowercase)\r\n",
+    "attribution": null,
+    "connection_info": null,
+    "category": "OSINT",
+    "state": "visible",
+    "max_attempts": 10,
+    "logic": "any",
+    "initial": 500,
+    "decay": 20,
+    "minimum": 100,
+    "function": "logarithmic",
+    "type": "standard",
+    "type_data": {
+      "id": "standard",
+      "name": "standard",
+      "templates": {
+        "create": "/plugins/challenges/assets/create.html",
+        "update": "/plugins/challenges/assets/update.html",
+        "view": "/plugins/challenges/assets/view.html"
+      },
+      "scripts": {
+        "create": "/plugins/challenges/assets/create.js",
+        "update": "/plugins/challenges/assets/update.js",
+        "view": "/plugins/challenges/assets/view.js"
+      }
+    },
+    "files": [
+      "/files/df17af898fe402b33ace7688b55d1ee0/Forensic_Report.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjIzfQ.aQOsDA.IwFUOoIV0CJYMpZgNA6PGOykYek"
+    ],
+    "tags": [],
+    "hints": []
+  }
+}

@@ -1,0 +1,19 @@
+Giggity Giggity  (ID: 57)
+Category: General | Value: 475 | State: visible
+
+Description:
+The repository looks clean, but ghosts linger in its history. Forgotten branches, silent tags, and buried commits still whisper fragments of something once whole. Follow the traces left in the reflog’s shadow, gather what time tried to erase, and you might just uncover what the past refused to let go. Find all the 6 parts to make the full flag. Custom Format djsisaca{flag}
+
+Files:
+ 1) git-ctf-for-players.zip
+     original: /files/e078111a2d70386985e4774b021ddfce/git-ctf-for-players.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMwfQ.aQOsIw.JSaRUxEhUKqTNFCD8FRroSva09s
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fe078111a2d70386985e4774b021ddfce%2Fgit-ctf-for-players.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjMwfQ.aQOsIw.JSaRUxEhUKqTNFCD8FRroSva09s
+
+Hints:
+ - Hint 1 (Cost: 50)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)

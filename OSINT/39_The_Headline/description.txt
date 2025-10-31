@@ -1,0 +1,21 @@
+The_Headline  (ID: 39)
+Category: OSINT | Value: 139 | State: visible
+
+Description:
+You found this photo hidden deep within a box of my friend’s old things. When I asked about it, he clamped up, his face draining of color. All that remains is the unsettling inscription: 'Something bad happened here.' What secret is this image hiding, and why is my friend so afraid of it?
+
+Find the date the tragedy struck the location. (Flag Format : DJSISACA{DD_MM_YYYY})
+
+Files:
+ 1) headline_attachment.zip
+     original: /files/e26083a797b03299e934f26013b3705d/headline_attachment.zip?token=eyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQwfQ.aQOsAQ.0Q028EWSllzlOvTo6PEAifa_7jU
+     download: https://bb3.tech/api/ctf/file?path=%2Ffiles%2Fe26083a797b03299e934f26013b3705d%2Fheadline_attachment.zip%3Ftoken%3DeyJ1c2VyX2lkIjo2OSwidGVhbV9pZCI6MzIsImZpbGVfaWQiOjQwfQ.aQOsAQ.0Q028EWSllzlOvTo6PEAifa_7jU
+
+Hints:
+ - Hint 1 (Cost: 100)
+
+Tags:
+ (none)
+
+---
+Generated: description.txt (from response.json)
