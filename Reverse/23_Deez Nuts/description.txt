@@ -1,5 +1,6 @@
 Deez Nuts  (ID: 23)
 Category: Reverse | Value: 100 | State: visible
+Attempts: /10 | Solves: 24 | Solved by me: No
 
 Description:
 You ever just look at a coconut and think, “What if it’s hiding a flag?”

@@ -1,5 +1,6 @@
 ClumsyCon  (ID: 45)
 Category: OSINT | Value: 491 | State: visible
+Attempts: 3/10 | Solves: 4 | Solved by me: Yes
 
 Description:
 Help an investigatory agency find details about a wanna-be scammer who accidentally left his desktop screen open. Report to them his details and get the flag.

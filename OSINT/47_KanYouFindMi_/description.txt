@@ -1,5 +1,6 @@
 KanYouFindMi?  (ID: 47)
 Category: OSINT | Value: 491 | State: visible
+Attempts: 3/10 | Solves: 4 | Solved by me: No
 
 Description:
 A notorious malware developer, known only as KanYouFindMe, has been taunting investigators online after stealing sensitive data from a major cybersecurity firm. He claims he’s “untraceable,” the only lead we have of him is this account `kanyouf1ndm3`.

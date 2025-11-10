@@ -1,5 +1,6 @@
 Bootstrap Bill’s Lock  (ID: 29)
 Category: Reverse | Value: 491 | State: visible
+Attempts: /10 | Solves: 4 | Solved by me: No
 
 Description:
 A notorious band of digital pirates, confident in their cryptographic prowess, have locked away their treasure map with a custom piece of ransomware—daring any would-be treasure hunters to break their scheme....all that remains is a single encrypted file and the original malware binary—rumored to be the handiwork of the infamous Bootstrap Bill himself.

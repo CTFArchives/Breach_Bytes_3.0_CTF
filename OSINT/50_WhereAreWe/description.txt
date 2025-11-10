@@ -1,5 +1,6 @@
 WhereAreWe  (ID: 50)
 Category: OSINT | Value: 499 | State: visible
+Attempts: 3/10 | Solves: 2 | Solved by me: No
 
 Description:
 You are assigned to the Central Surveillance Unit (CSU) tracking two high-value targets, 'The Falcon' and 'The Serpent'. We successfully intercepted their latest comms, confirming a critical meetup. Your analysis team has provided only the raw transcript below.

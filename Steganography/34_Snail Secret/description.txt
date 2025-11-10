@@ -1,5 +1,6 @@
 Snail Secret  (ID: 34)
 Category: Steganography | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Nature truly hides many secrets.Here is a small secret about snails.Can you find it?

@@ -1,5 +1,6 @@
 Small Curve, Small d***  (ID: 51)
 Category: Cryptography | Value: 500 | State: visible
+Attempts: 3/10 | Solves:  | Solved by me: No
 
 Description:
 Everyone writes y^2 = x^3 + ax + b over ℤn, or wait was it 𝔽p?🤔

@@ -1,5 +1,6 @@
 TheAlienReply  (ID: 27)
 Category: Steganography | Value: 491 | State: visible
+Attempts: /10 | Solves: 4 | Solved by me: No
 
 Description:
 Years ago, humanity sent a simple radio signal into deep space as part of a global initiative to reach extraterrestrial life.

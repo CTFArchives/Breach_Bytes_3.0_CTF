@@ -1,5 +1,6 @@
 The_Headline  (ID: 39)
 Category: OSINT | Value: 139 | State: visible
+Attempts: 5/10 | Solves: 20 | Solved by me: Yes
 
 Description:
 You found this photo hidden deep within a box of my friend’s old things. When I asked about it, he clamped up, his face draining of color. All that remains is the unsettling inscription: 'Something bad happened here.' What secret is this image hiding, and why is my friend so afraid of it?

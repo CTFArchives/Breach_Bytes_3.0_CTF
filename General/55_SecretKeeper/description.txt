@@ -1,5 +1,6 @@
 SecretKeeper  (ID: 55)
 Category: General | Value: 436 | State: visible
+Attempts: /10 | Solves: 9 | Solved by me: No
 
 Description:
 A quiet device, a pair of hidden things, and a secret that only wants its pieces joined. Wake the app, follow the faint traces it leaves on its vaults, and listen for the whisper the device itself carries — a small fragment that, when stitched to the other shard, will coax the sealed message open. Look gently; the secret responds to those who piece its parts together.

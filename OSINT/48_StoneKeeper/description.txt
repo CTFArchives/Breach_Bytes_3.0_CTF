@@ -1,5 +1,6 @@
 StoneKeeper  (ID: 48)
 Category: OSINT | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Welcome to Homicide. Your initial task is to sift through the infamous "No-Leads" shelf. You pull a file—Case 77-09—an old, high-profile murder that baffled everyone. The case is practically empty; no witnesses, no motive,just one item: a concise Forensic Report (maybe more than just one file?) of the victim.

@@ -1,5 +1,6 @@
 Pirates Poetry  (ID: 61)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 The key lies in a Romantic era poem where a sailor's cruel act against a sea bird brings supernatural punishment upon his crew. The author also wrote about a 'stately pleasure-dome' in Xanadu.

@@ -1,5 +1,6 @@
 Lan Party Panic  (ID: 53)
 Category: Forensic | Value: 499 | State: visible
+Attempts: /10 | Solves: 2 | Solved by me: No
 
 Description:
 It looked like just another flood of TCP chatter, fragmented packets, connection attempts on the LAN. But those who notice patterns in the storm may uncover the truth.

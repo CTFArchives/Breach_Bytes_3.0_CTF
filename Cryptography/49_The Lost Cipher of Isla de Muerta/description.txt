@@ -1,5 +1,6 @@
 The Lost Cipher of Isla de Muerta  (ID: 49)
 Category: Cryptography | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 https://oracle-web-crypto.vercel.app/

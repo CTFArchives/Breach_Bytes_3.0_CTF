@@ -1,5 +1,6 @@
 Wanted  (ID: 37)
 Category: Steganography | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Jack Sparrow is on the run again, chased through the sands by the King’s army. Somewhere along his escape, he’s left behind a clue — only those sharp enough to track him will uncover his secret.

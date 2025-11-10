@@ -1,5 +1,6 @@
 Nondeterministic Entrapment  (ID: 60)
 Category: General | Value: 379 | State: visible
+Attempts: /10 | Solves: 12 | Solved by me: No
 
 Description:
 You awaken in a dimly lit quantum laboratory, surrounded by humming machines and flickering monitors. A cryptic message from Professor Incarcius greets you: “The flag is hidden within the quantum signals. Only those who see beyond the illusions can reveal what’s lost. The odds are in the rotations… but not every twist leads you to truth.”

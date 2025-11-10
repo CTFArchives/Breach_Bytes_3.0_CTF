@@ -1,5 +1,6 @@
 Deadman’s Delegate  (ID: 67)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Avast ye! — Phantom Vault be anchored at 0xB838058A2C3D034B44516FD02368044d0BD90fe6.

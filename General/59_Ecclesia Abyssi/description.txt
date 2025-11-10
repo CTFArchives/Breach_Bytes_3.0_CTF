@@ -1,5 +1,6 @@
 Ecclesia Abyssi  (ID: 59)
 Category: General | Value: 100 | State: visible
+Attempts: /10 | Solves: 24 | Solved by me: No
 
 Description:
 Moonlight spills through a fractured ceiling, painting silence across stone and ash. A once-sacred bench cradles a torn white robe, its fabric stirs slightly, though no wind moves. On the far wall, faint markings scar the surface, deliberate and measured. The order that once gathered here left no scriptures behind, only shapes of faith etched in silence. Some say they crossed the seas when their cause was lost, their truths carried in marks only the devoted would recall. Not all messages are written in words. Some are drawn in vows and shadows.

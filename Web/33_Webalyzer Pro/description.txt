@@ -1,5 +1,6 @@
 Webalyzer Pro  (ID: 33)
 Category: Web | Value: 451 | State: visible
+Attempts: /10 | Solves: 8 | Solved by me: No
 
 Description:
 They want to protect their personal identifer token , can you somehow manage to get that?

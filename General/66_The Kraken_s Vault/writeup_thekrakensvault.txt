@@ -1,0 +1,9 @@
+1. Go to https://sepolia.etherscan.io/
+2. Search 0xC721396205548E24BD8c33719b1586BcEF808aC8
+3. Go to contract
+4. Click on Switch to Opcodes View
+5. You will find 0xb5a9d6b3f846b561ec176675f55cf0d03c0d2a0ac2d5d54cb37d7abd2d5e8471
+6. b5a9d6b3f846b561ec176675f55cf0d03c0d2a0ac2d5d54cb37d7abd2d5e8471 is the hash of the flag
+7. Decrypt the hash with known flag DJSISACA{}
+8. Hint: The flag contain DJSISCA{b??ckch?in_??_????} with the help of this hint it is easy to crack the flag
+9. Flag : DJSISCA{b10ckch@in_i$_e@5y}

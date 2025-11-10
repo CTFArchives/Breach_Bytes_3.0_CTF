@@ -1,5 +1,6 @@
 WeParse  (ID: 32)
 Category: Web | Value: 139 | State: visible
+Attempts: /10 | Solves: 20 | Solved by me: No
 
 Description:
 Something about this website doesn’t add up. Hidden pathways lie buried beneath its simple interface, waiting for the curious to uncover them. Dare to peer deeper—what starts as a harmless request might reveal far more than intended.

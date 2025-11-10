@@ -1,5 +1,6 @@
 TrexRunner  (ID: 24)
 Category: Reverse | Value: 464 | State: visible
+Attempts: /10 | Solves: 7 | Solved by me: No
 
 Description:
 Once just a pixelated survivor in the Chrome desert, your dino steps into legend with new cosmic powers, with the power to control time (Press 'v'), but can it bend space itself, perhaps a score of 99999?

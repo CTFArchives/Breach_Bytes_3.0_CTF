@@ -1,5 +1,6 @@
 KeySmith  (ID: 62)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 The captain kept notes in website — some are obvious, some are tossed to the wind. Gather what feels important and the chest will make sense.

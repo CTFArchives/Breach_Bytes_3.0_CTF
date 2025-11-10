@@ -1,5 +1,6 @@
 DiskFall  (ID: 64)
 Category: Forensic | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 A mysterious system crash caused critical data sectors to collapse, leaving behind traces of fragmented and partially recovered files. Some evidence was wiped, but not everything truly disappears. Your job: dig through the remnants and uncover what was lost.

@@ -1,5 +1,6 @@
 Imposter daVinci  (ID: 31)
 Category: Steganography | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 Someone thought they could duplicate Da Vinci’s genius… but did they really? They left behind a “masterpiece” in the form of a GIF.Looks fake at first glance, but appearances

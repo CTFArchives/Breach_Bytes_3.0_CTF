@@ -1,5 +1,6 @@
 Emoji Madness  (ID: 40)
 Category: Cryptography | Value: 419 | State: visible
+Attempts: 3/10 | Solves: 10 | Solved by me: No
 
 Description:
 There exist short sentences which include all the alphabets. Encapsulate the flag in DJSISACA{}

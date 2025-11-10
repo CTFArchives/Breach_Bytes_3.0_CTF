@@ -1,5 +1,6 @@
 The Kraken’s Vault  (ID: 66)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Arrr! The golden flag lies at 0xC721396205548E24BD8c33719b1586BcEF808aC8 sepolia. Only true pirates calling checkCandidateString will seize it!

@@ -1,5 +1,6 @@
 Glitchy Endgame  (ID: 28)
 Category: Reverse | Value: 484 | State: visible
+Attempts: /10 | Solves: 5 | Solved by me: No
 
 Description:
 Good news: The chessboard shows up. Bad news: the position isn’t playing by anyone’s rules. Call it experimental board logic or creative data shuffling, the setup challenges standard chess thinking. From code wizardry to chess mastery, whichever works, as long as you restore order and land the winning move.

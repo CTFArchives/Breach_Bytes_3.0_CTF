@@ -1,5 +1,6 @@
 Shameless Shamir  (ID: 44)
 Category: Cryptography | Value: 500 | State: visible
+Attempts: 6/10 | Solves: 1 | Solved by me: No
 
 Description:
 "Because of Shamir's stinginess the board of directors cannot access their shared password. I have given you Shamir's shares can you recover it?

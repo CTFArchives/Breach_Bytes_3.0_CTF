@@ -1,5 +1,6 @@
 The Nuke  (ID: 69)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 A timer counts down.

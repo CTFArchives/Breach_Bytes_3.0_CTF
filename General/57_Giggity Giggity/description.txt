@@ -1,5 +1,6 @@
 Giggity Giggity  (ID: 57)
 Category: General | Value: 475 | State: visible
+Attempts: /10 | Solves: 6 | Solved by me: No
 
 Description:
 The repository looks clean, but ghosts linger in its history. Forgotten branches, silent tags, and buried commits still whisper fragments of something once whole. Follow the traces left in the reflog’s shadow, gather what time tried to erase, and you might just uncover what the past refused to let go. Find all the 6 parts to make the full flag. Custom Format djsisaca{flag}

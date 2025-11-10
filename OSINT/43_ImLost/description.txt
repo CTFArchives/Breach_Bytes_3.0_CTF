@@ -1,5 +1,6 @@
 ImLost  (ID: 43)
 Category: OSINT | Value: 496 | State: visible
+Attempts: 3/10 | Solves: 3 | Solved by me: No
 
 Description:
 You don’t know where you are. Your vision is hazy and this is all you can see. You’re supposed to meet your friend at a church site somewhere nearby, but can’t find your way.

@@ -1,5 +1,6 @@
 Ghosts in the Profiles  (ID: 63)
 Category: Forensic | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Manya is a mid‑level developer at a small privacy startup. Late one evening she noticed odd behaviour on her workstation: a local archive she trusted became inaccessible and a private sync service that she uses suddenly had a saved credential she didn’t remember creating. You were called in as the incident responder.

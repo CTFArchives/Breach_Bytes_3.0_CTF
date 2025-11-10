@@ -1,5 +1,6 @@
 The Archive Leak  (ID: 54)
 Category: Forensic | Value: 400 | State: visible
+Attempts: /10 | Solves: 11 | Solved by me: No
 
 Description:
 Novus Technologies quietly ran an internal initiative codenamed Project Arion,  a pilot to consolidate legacy customer records into a central analytics store. Late one Monday, Archive Operations noticed an unusual backup file arriving from an external vendor. It looked like garbled text and was forwarded to security for inspection.

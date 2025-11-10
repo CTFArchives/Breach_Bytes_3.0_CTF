@@ -1,5 +1,6 @@
 Binary Mayhem  (ID: 58)
 Category: General | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 Wrap the flag in the format DJSISACA{FLAG_GOES_HERE}

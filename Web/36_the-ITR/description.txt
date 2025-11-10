@@ -1,5 +1,6 @@
 the-ITR  (ID: 36)
 Category: Web | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 The system seems secure, built to keep people out. Yet, if you pay attention, you might spot hidden flaws that let you slip past its defenses without anyone noticing.

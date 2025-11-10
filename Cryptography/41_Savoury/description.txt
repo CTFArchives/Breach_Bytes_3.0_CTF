@@ -1,5 +1,6 @@
 Savoury  (ID: 41)
 Category: Cryptography | Value: 176 | State: visible
+Attempts: 1/10 | Solves: 19 | Solved by me: Yes
 
 Description:
 Can salt be black??? I'm not sure but ""pepper"" surely is.

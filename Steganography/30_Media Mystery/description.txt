@@ -1,5 +1,6 @@
 Media Mystery  (ID: 30)
 Category: Steganography | Value: 500 | State: visible
+Attempts: /10 | Solves:  | Solved by me: No
 
 Description:
 Your idol has left you a message in his style.

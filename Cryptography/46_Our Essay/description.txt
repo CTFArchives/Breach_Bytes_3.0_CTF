@@ -1,5 +1,6 @@
 Our Essay  (ID: 46)
 Category: Cryptography | Value: 500 | State: visible
+Attempts: /10 | Solves: 1 | Solved by me: No
 
 Description:
 Aren’t big primes just so hard to find? I'm not sure what you do but I used a very famous sequence to find one.

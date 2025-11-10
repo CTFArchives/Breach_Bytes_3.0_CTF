@@ -1,5 +1,6 @@
 SuperPatchBro's  (ID: 26)
 Category: Reverse | Value: 499 | State: visible
+Attempts: /10 | Solves: 2 | Solved by me: No
 
 Description:
 Welcome to the game. Your mission is to find all 3 hidden gems scattered across the game. Each gem you collect drops a part of the flag into the player logs.Only when you’ve gathered all three parts can you piece together the full flag. Can you dig through the game’s mechanics and uncover them all?
